@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-text-size-adjust",
+          "orphans",
+          "-webkit-text-decoration-skip",
+          "widows",
+          "-webkit-tap-highlight-color"
+        ]
+      }
+    ]
+  }
+}
